@@ -43,6 +43,20 @@ article {
 }
 
 li {
- list-style: devanagari;;
+ list-style: devanagari;
 }
+
+nav ul li {
+ list-style: none;
+ text-align: center;
+ margin: 50px;
+
+}
+
+nav ul {
+ display: flex;
+ justify-content: center;
+ 
+}
+
 
