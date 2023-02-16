@@ -1,1 +1,74 @@
 /* Write your CSS here! */
+
+body {
+ margin: 8px;
+ display: block;
+ 
+}
+
+h1 {
+ text-align: center;
+ font-size: 4em;
+}
+
+img {
+ border: 5px solid;
+ border-radius: 10px;
+ border-color: black;
+ height: 500px;
+ width: 700px;
+ 
+}
+
+#mainHeading {
+ color: red;
+}
+
+.funParagraph {
+ color: green;
+}
+
+article {
+ display: grid;
+ border: 10px solid rgb(20, 20, 130);
+ border-radius: 10px;
+ padding: 10px;
+ grid-template-columns: 1fr 1fr;
+ margin-bottom: 16px;
+ margin: 100px;
+}
+
+.rightSide {
+ justify-self: end;
+}
+
+li {
+ list-style: devanagari;
+}
+
+nav ul li {
+ list-style: none;
+ text-align: center;
+ margin: 5px;
+ margin-top: 0px;
+ 
+
+}
+
+nav ul {
+ display: flex;
+ justify-content: center;
+ 
+}
+
+#sticky {
+ position: sticky;
+ top: 0;
+ background-color: rgba(218, 69, 188, 0.3);
+ padding-top: 1px;
+} 
+
+a:link {
+ text-decoration: none;
+}
+
