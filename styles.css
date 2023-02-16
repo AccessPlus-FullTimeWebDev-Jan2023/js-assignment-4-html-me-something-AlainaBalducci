@@ -50,6 +50,7 @@ nav ul li {
  list-style: none;
  text-align: center;
  margin: 50px;
+ 
 
 }
 
@@ -59,4 +60,8 @@ nav ul {
  
 }
 
+/* .sticky {
+ position: sticky;
+ top: 0;
+}  */
 
