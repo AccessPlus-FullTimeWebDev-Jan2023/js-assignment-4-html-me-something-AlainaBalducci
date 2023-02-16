@@ -64,7 +64,11 @@ nav ul {
 #sticky {
  position: sticky;
  top: 0;
- background-color: #ffffff;
+ background-color: rgba(218, 69, 188, 0.3);
  padding-top: 1px;
 } 
+
+a:link {
+ text-decoration: none;
+}
 
